@@ -1,0 +1,102 @@
+.main {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.register-box {
+  max-width: 420px;
+  min-width: 320px;
+  width: 50%;
+  color: #3A00E5;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.register-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.register-box label{
+  margin: 0;
+  padding: 5px 2px;
+  display: block;
+  font-size: 13px;
+  
+}
+
+
+.register-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #AFB1B6;
+  border-radius: 8px;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+
+
+.btn-register {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: black;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.register-box input[type="submit"]:hover {
+  color: #3A00E5;
+}
+
+.register-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.register-box a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.fail {
+  color: #e50000;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p{    
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-disable {
+  background-color: gray;
+}
+
+.alert-danger{
+  color:#e50000;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+

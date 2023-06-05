@@ -1,0 +1,22 @@
+version: "3"
+services:
+  angular-app:
+    build:
+      context: ./FronEndProject
+      dockerfile: Dockerfile-angular
+    ports:
+      - 3000:80
+
+  dotnet-app:
+    build:
+      context: ./AgendaApi/AgendaApi
+      dockerfile: Dockerfile-dotnet
+    ports:
+      - 7042:80
+    # volume path
+    volumes:
+      - data:/app/Data
+
+#config volumen
+volumes:
+  data:
