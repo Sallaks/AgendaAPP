@@ -1,0 +1,9 @@
+.git
+
+.vscode
+
+.vs
+
+**/bin
+
+**/obj
