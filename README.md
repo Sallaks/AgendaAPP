@@ -32,14 +32,3 @@ http://localhost:7042
 
 
 Here, you can make requests to the API.
-
-## Running EF Migrations
-
-Before running the containers, you need to apply the Entity Framework (EF) migrations to set up the database. Follow these steps:
-
-1. Open a terminal and navigate to the `AgendaApi/AgendaApi` directory.
-
-2. Run the following command to apply the EF migrations:
-
-dotnet ef database update
-
