@@ -1,0 +1,10 @@
+services:
+  angular-app:
+    image: francore/tup-agenda-front:v1
+    ports:
+      - 3000:80
+
+  dotnet-app:
+    image: francore/tup-agenda-back:v1
+    ports:
+      - 7042:80
