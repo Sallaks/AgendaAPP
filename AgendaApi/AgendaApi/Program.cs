@@ -42,7 +42,7 @@ builder.Services.AddSwaggerGen(setupAction =>
     {
         Type = SecuritySchemeType.Http,
         Scheme = "Bearer",
-        Description = "Acá pegar el token generado al loguearse."
+        Description = "Acï¿½ pegar el token generado al loguearse."
     });
 
     setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -53,7 +53,7 @@ builder.Services.AddSwaggerGen(setupAction =>
                 Reference = new OpenApiReference
                 {
                     Type = ReferenceType.SecurityScheme,
-                    Id = "ConsultaAlumnosApiBearerAuth" } //Tiene que coincidir con el id seteado arriba en la definición
+                    Id = "ConsultaAlumnosApiBearerAuth" } //Tiene que coincidir con el id seteado arriba en la definiciï¿½n
                 }, new List<string>() }
     });
 });
@@ -94,11 +94,11 @@ var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 
 app.UseHttpsRedirection();
 
