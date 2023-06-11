@@ -6,8 +6,6 @@ COPY . .
 
 RUN dotnet publish "AgendaApi.csproj" -c Release -o /app
 
-COPY AgendaTelefonica.db /app/Data/AgendaTelefonica.db
-
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 WORKDIR /app
