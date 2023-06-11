@@ -10,7 +10,7 @@ This project uses Docker Compose to orchestrate the containers for an Angular ap
 
 ### Usage image local
 
-1. Open a terminal and navigate to the root directory of your project.
+1. Open a terminal and navigate to the root directory
 
 2. Run the following command to build and run the containers:
 
@@ -24,10 +24,11 @@ This will build the images and run the containers for the Angular application an
 
 2. Run the following command to build and run the containers:
 
-```docker-compose -f docker-compose-remote```
+```docker-compose -f docker-compose-remote up```
 
 This will build the images and run the containers for the Angular application and the .NET API.
 
+-----
 
 Access the Angular application in your web browser using the following URL:
 
@@ -41,5 +42,9 @@ http://localhost:7042
 
 Here, you can make requests to the API.
 
-### Contributors
+## Contributors
+- Franco Re
+- Elio Tombolesi
+- Juan Ignacio Queral
+- Manuel Gainza Alvarez
 
