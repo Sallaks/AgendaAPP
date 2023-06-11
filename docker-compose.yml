@@ -13,10 +13,3 @@ services:
       dockerfile: Dockerfile-dotnet
     ports:
       - 7042:80
-# volume path
-#     volumes:
-#       - data:/app/Data
-
-# #config volumen
-# volumes:
-#   data:
