@@ -24,7 +24,7 @@ This will build the images and run the containers for the Angular application an
 
 2. Run the following command to build and run the containers:
 
-```docker-compose -f docker-compose-remote up```
+```docker-compose -f docker-compose-remote.yml up```
 
 This will build the images and run the containers for the Angular application and the .NET API.
 
