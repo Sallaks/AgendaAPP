@@ -1,4 +1,4 @@
-# My Docker Compose Project
+# Agenda APP
 
 This project uses Docker Compose to orchestrate the containers for an Angular application and a .NET API.
 
@@ -8,27 +8,38 @@ This project uses Docker Compose to orchestrate the containers for an Angular ap
 
 ## Setup
 
-- wip
-
-## Usage
+### Usage image local
 
 1. Open a terminal and navigate to the root directory of your project.
 
 2. Run the following command to build and run the containers:
 
-docker-compose up
+```docker-compose up```
 
 This will build the images and run the containers for the Angular application and the .NET API.
 
-3. Access the Angular application in your web browser using the following URL:
+### Usage image Docker Hub
+
+1. Open a terminal and navigate to the root directory of your project.
+
+2. Run the following command to build and run the containers:
+
+```docker-compose -f docker-compose-remote```
+
+This will build the images and run the containers for the Angular application and the .NET API.
+
+
+Access the Angular application in your web browser using the following URL:
 
 http://localhost:3000
 
 This will open the Angular application in your browser.
 
-4. Use the .NET API by accessing the following URL:
+Use the .NET API by accessing the following URL:
 
 http://localhost:7042
 
-
 Here, you can make requests to the API.
+
+### Contributors
+
