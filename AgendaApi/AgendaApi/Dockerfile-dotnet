@@ -1,12 +1,10 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
-WORKDIR /src
+WORKDIR /app
 
 COPY . .
 
-RUN dotnet publish "AgendaApi/AgendaApi.csproj" -c Release -o /app
-
-ENV ConnectionStrings__DefaultConnection="Data Source=AgendaTelefonica.db"
+RUN dotnet publish "AgendaApi.csproj" -c Release -o /app
 
 COPY AgendaTelefonica.db /app/Data/AgendaTelefonica.db
 
