@@ -10,7 +10,7 @@ This project uses Docker Compose to orchestrate the containers for an Angular ap
 
 ### Usage image local
 
-1. Open a terminal and navigate to the root directory
+1. Open a terminal and navigate to the root directory.
 
 2. Run the following command to build and run the containers:
 
@@ -20,7 +20,7 @@ This will build the images and run the containers for the Angular application an
 
 ### Usage image Docker Hub
 
-1. Open a terminal and navigate to the root directory of your project.
+1. Open a terminal and navigate to the root directory.
 
 2. Run the following command to build and run the containers:
 
