@@ -1,7 +1,7 @@
 version: '3'
 services:
   angular-app:
-    image: francore/tup-agenda-front:v1
+    image: francore/tup-agenda-front:v2
     ports:
       - 3000:80
 
